@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+body {
+    background: linear-gradient(rgba(5, 75, 145, 1), rgba(5, 75, 145, 0.7));
+}
+
+.logo{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-50%) translateX(0);
+    }
+    50% {
+        transform: translateY(-50%) translateX(10px);
+    }
+    100% {
+        transform: translateY(-50%) translateX(0);
+    }
+}
+
+.paco {
+    position: absolute;
+    left: 20;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: float 3s ease-in-out infinite;
+}
+
+.cato {
+    position: absolute;
+    right: 20;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: float 4s ease-in-out infinite;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: pink;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+iframe{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}

@@ -13,7 +13,6 @@ body {
 
 .logo{
     width: 500px;
-    min-width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -71,6 +70,9 @@ iframe{
         top: 20%; /* Mueve ambas imágenes hacia arriba */
         transform: none; /* Elimina la transformación vertical */
     }
+
+    .logo {
+        width: 300px;}
 
     .paco {
         left: 10%; /* Mantén a Paco a la izquierda */

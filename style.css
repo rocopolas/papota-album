@@ -64,6 +64,13 @@ iframe{
     width: 50%;
 }
 
+audio {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 768px) {
     .paco, .cato {
         position: absolute; /* Mantén la posición absoluta */
